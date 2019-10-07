@@ -1,0 +1,118 @@
+html{
+    overflow:none;
+}
+body{
+    margin:0;
+}
+
+.paralax{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    
+    
+    background: black;
+  
+    /* Set a specific height */
+   
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .pers{
+    z-index:99;
+    height:250px;width:200px;
+    background-image:url(assets/html1.png);
+    background-position: center;
+   
+    
+    position: absolute;
+    transform: perspective(400px) rotatey(-60deg) ;
+   
+    transform-origin: 0px 50px 150px;  
+    margin-top:200px;
+    margin-left:50px ;
+   
+  
+  }
+  .pers:hover{
+    animation: s1 3s;
+  }
+  .pers1{
+    
+    height:250px;width:200px;
+    background-image:url(assets/css1.png);
+    background-position: center;
+    
+    position: absolute;
+    transform: perspective(400px) rotatey(-60deg) ;
+   
+    transform-origin: 0px 50px 150px;  
+    margin-top:200px;
+    margin-left:270px  
+  }
+  .pers1:hover{
+    animation: s1 3s;
+  }
+  .pers2{
+   
+    height:250px;width:200px;
+    background-image:url(assets/js1.png);
+    background-position: center;
+    
+    position: absolute;
+    transform: perspective(400px) rotatey(-60deg) ;
+   
+    transform-origin: 0px 50px 150px;  
+    margin-top:200px;
+    margin-left:490px  
+  }
+  .pers2:hover{
+    animation: s1 3s;
+  }
+  
+  .pers3{
+   
+    height:250px;width:200px;
+    background-image:url(assets/vue.png);
+    background-position: center;
+   
+    position: absolute;
+    transform: perspective(400px) rotatey(-60deg) ;
+   
+    transform-origin: 0px 50px 150px;  
+    margin-top:200px;
+    margin-left:710px  
+  }
+  .pers3:hover{
+    
+    animation: s1 3s;
+  }
+  @keyframes s1 {
+    from{height:250px;width:200px;transform: perspective(400px) rotatey(-60deg) ;}
+    to{height:255px;width:255px;transform: perspective(400px) rotatey(-40deg) ;}
+  }
+  .pers4{
+    
+    height:250px;width:200px;
+    background-image:url(assets/ıpad.png);
+    background-position: center;
+   
+    position: absolute;
+    transform: perspective(400px) rotatey(-60deg) ;
+   
+    transform-origin: 0px 50px 150px;  
+    margin-top:200px;
+    margin-left:930px  
+  }
+  .pers4:hover{
+    
+    animation: s1 3s;
+  }
+  @keyframes s1 {
+    from{height:250px;width:200px;transform: perspective(400px) rotatey(-60deg) ;}
+    to{height:255px;width:255px;transform: perspective(400px) rotatey(-40deg) ;}
+  }
