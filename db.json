@@ -20,7 +20,13 @@
         link: '#',
         dropItems: null
     },
-   
+       {
+        isDropdown: false,
+        title: 'Kampanyalar',
+        icon: 'icon-36-navigation-campaigns-filled',
+        link: '#',
+        dropItems: null
+    }
   ] 
 
 }
