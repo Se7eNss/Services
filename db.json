@@ -1,0 +1,32 @@
+{"menu":[
+      {
+        isDropdown: true,
+        title: 'Hesaplar',
+        icon: 'icon-36-navigation-account-filled',
+        link: '#',
+        dropItems: [{ title: 'Menu 1', link: '#' }, { title: 'Menu 2', link: '#' }, { title: 'Menu 3', link: '#' }, { title: 'Menu 4', link: '#' }, { title: 'Menu 5', link: '#' }, { title: 'Menu 6', link: '#' }, { title: 'Menu 7', link: '#' }]
+    },
+    {
+        isDropdown: false,
+        title: 'Kartlar',
+        icon: 'icon-36-navigation-card-stroke',
+        link: '#',
+        dropItems: null
+    },
+    {
+        isDropdown: false,
+        title: 'İşlemler',
+        icon: 'icon-36-navigation-function-stroke',
+        link: '#',
+        dropItems: null
+    },
+    {
+        isDropdown: false,
+        title: 'Kampanyalar',
+        icon: 'icon-36-navigation-campaigns-filled',
+        link: '#',
+        dropItems: null
+  }
+  ] 
+
+}
